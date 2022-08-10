@@ -1,0 +1,102 @@
+{
+  "data": {
+    "availablePlans": [
+      {
+        "id": "a6dca058-724e-4481-935b-b25662375ce9",
+        "planId": 30948201,
+        "type": "individual",
+        "offerInfo": {
+          "name": "Processos",
+          "description": null,
+          "legalCaption": null,
+          "benefits": [
+            "Acompanhe publicações de até 5 processos nos sites dos tribunais e Diários Oficiais",
+            "Mantenha-se informado sobre todas as decisões",
+            "Seja informado por e-mail"
+          ]
+        },
+        "paymentInfo": {
+          "price": "29,00",
+          "currency": "R$"
+        }
+      },
+      {
+        "id": "63d552cd-7f59-410a-a69f-d3d9a87e0dc0",
+        "planId": 30948202,
+        "type": "individual",
+        "offerInfo": {
+          "name": "Pesquisa Jurídica Básica",
+          "description": null,
+          "legalCaption": null,
+          "benefits": [
+            "Cópia ilimitada de Jurisprudência, Modelos e Peças",
+            "Cópia de ementas já formatadas para uso"
+          ]
+        },
+        "paymentInfo": {
+          "price": "29,00",
+          "currency": "R$"
+        }
+      },
+      {
+        "id": "10e2007e-1ed3-4a49-93b7-e7b951f72121",
+        "planId": 30948203,
+        "type": "individual",
+        "offerInfo": {
+          "name": "Pesquisa Jurídica Avançada",
+          "description": "Assine o <strong>Pesquisa Jurídica Avançada</strong> para começar a utilizar a maior base de doutrina do Brasil.",
+          "legalCaption": "Mais R$ 29,00 por usuário adicional.<br/>Usuários adicionais não possuem acesso à funcionalidade de Doutrina.",
+          "benefits": [
+            "Leitura de obras da Revista dos Tribunais",
+            "Busca por conteúdo dentro das obras",
+            "Cópia ilimitada com referência formatada ABNT",
+            "Todos os benefícios do plano \"Pesquisa Jurídica Básica\""
+          ]
+        },
+        "paymentInfo": {
+          "price": "69,00",
+          "currency": "R$"
+        }
+      },
+      {
+        "id": "1979185d-91e7-414d-8e55-a7d3cdfa629d",
+        "planId": 10048204,
+        "type": "bundle",
+        "offerInfo": {
+          "name": "Processos + Pesquisa Jurídica Básica",
+          "description": null,
+          "legalCaption": null,
+          "benefits": [
+            "Acompanhe publicações de até 5 processos nos sites dos tribunais e Diários Oficiais",
+            "Cópia ilimitada de Jurisprudência, Modelos e Peças",
+            "Todos os benefícios dos planos \"Pesquisa Jurídica Básica\" e \"Processos\""
+          ]
+        },
+        "paymentInfo": {
+          "price": "58,00",
+          "currency": "R$"
+        }
+      },
+      {
+        "id": "0db91243-b784-4136-a357-d027ba4347ac",
+        "planId": 10048205,
+        "type": "bundle",
+        "offerInfo": {
+          "name": "Processos + Pesquisa Jurídica Avançada",
+          "description": null,
+          "legalCaption": "Mais R$ 44,00 por usuário adicional.<br/>Usuários adicionais não possuem acesso à funcionalidade de Doutrina.",
+          "benefits": [
+            "Leitura de obras da Revista dos Tribunais",
+            "Acompanhe publicações de até 5 processos nos sites dos tribunais e Diários Oficiais",
+            "Cópia ilimitada de Jurisprudência, Modelos e Peças",
+            "Todos os benefícios dos planos \"Pesquisa Jurídica Avançada\" e \"Processos\""
+          ]
+        },
+        "paymentInfo": {
+          "price": "84,00",
+          "currency": "R$"
+        }
+      }
+    ]
+  }
+}
