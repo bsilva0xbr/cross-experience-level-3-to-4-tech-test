@@ -10,7 +10,7 @@ const Navbar = () => (
           </a>
         </div>
         <div className="uk-align-center">
-          <a href="#planos" className="uk-align-right">Conheça nossos planos</a>
+          <a href="/#planos" className="uk-align-right">Conheça nossos planos</a>
         </div>
       </div>
     </Container>
