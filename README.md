@@ -35,7 +35,12 @@ Este projeto tem uma implementação básica para servir de base para seu desafi
 
 Para este projeto, não usamos [branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), mas a nossa recomendação é que você trabalhe em uma branch com seu username, se achar que é viável, pode sugerir ajustes via [pull requests](https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git#:~:text=commonly%20get%20wrong.-,What%20is%20a%20pull%20request%20in%20Git%3F,to%20merge%20into%20a%20project.), mas não modifique o projeto!
 
+
+**Como rodar este projeto**
+
 Este projeto também está rodando com Docker, onde você poderá configurar outros serviços via [docker-compose](https://docs.docker.com/compose/), se achar necessário para sua abordagem.
+
+Clone o projeto em sua máquina com Docker instalado, vá até o diretório o execute o comando `docker compose up`. Pronto!
 
 **Links úteis:** 
 [Node Express](https://expressjs.com/),  [Next JS](https://nextjs.org/), [API Rest](https://jsonapi.org/), [GraphQL](https://graphql.org/), [Apollo Client](https://www.apollographql.com/docs/react/), [React](https://reactjs.org/), [React Jest](https://jestjs.io/), [React Hooks](https://reactjs.org/docs/hooks-intro.html), [Docker](https://www.docker.com/).
