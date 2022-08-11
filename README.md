@@ -13,11 +13,11 @@ Este projeto foi criado usando [Next JS](https://nextjs.org/learn), com uma simp
 
 **Disponibilizando opções de planos**
 
-A nossa sugestão é que você crie um **web service** que disponibilize ao menos 03 ofertas de planos (individual) e 02 recomendações de pacotes promocionais (bundle). Para concluir este processo você pode adicionar um novo diretório neste projeto para servir e configurar o web service (backend) que deverá ser consumido através de API Rest ou GraphQL por esta landing page (frontend). [Next JS: Custom Server](https://nextjs.org/docs/advanced-features/custom-server)
+A nossa sugestão é que você crie um **web service** que disponibilize ao menos 03 ofertas de planos (individual) e 02 recomendações de pacotes promocionais (bundle). Para concluir este processo você pode adicionar um novo diretório neste projeto para servir e configurar o web service (backend) que deverá ser consumido através de API Rest por esta landing page (frontend). [Next JS: Custom Server](https://nextjs.org/docs/advanced-features/custom-server)
 
 Ao apresentar os planos você poderá formatar como conseguir, não há problemas se você não dominar [Cascading Style Sheets (CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS), mas seria legal ver o que consegue fazer! Neste projeto estamos usando o [UIKit](https://getuikit.com/) que auxilia na diagramação dos componentes, o qual você opcionalmente poderá usar também. **Dica:** No diretório de [resources/images](https://github.com/bsilva0xbr/cross-experience-level-3-to-4-tech-test/tree/main/resources/images) temos um template (screenshot) de um modelo de apresentação dos planos. 
 
-Ao selecionar um plano, o usuário deverá ser direcionando para o checkout fictício, a rota é `/checkout` neste projeto, onde você deverá passar o plano selecionado para cobrar do usuário nesta etapa. **Dica:** No diretório [resources/output](https://github.com/bsilva0xbr/cross-experience-level-3-to-4-tech-test/tree/main/resources/output) temos um documento JSON que servirá para "output" através de um "endpoint" da sua API Rest ou GraphQL. Não é necessário persistir informações usando banco de dados.
+Ao selecionar um plano, o usuário deverá ser direcionando para o checkout fictício, a rota é `/checkout` neste projeto, onde você deverá passar o plano selecionado para cobrar do usuário nesta etapa. **Dica:** No diretório [resources/data](https://github.com/bsilva0xbr/cross-experience-level-3-to-4-tech-test/tree/main/resources/data) temos um documento JSON que servirá para "data" através de um "endpoint" da sua API Rest. Não é necessário persistir informações usando banco de dados.
 
 **Checkout**
 
@@ -33,7 +33,7 @@ Para a etapa de checkout você **não precisará informar um cartão de crédito
 - Facilidade de reprodução: O código precisa ser executável. Considere que se você mudou os diretórios ou instalou alguma dependência ela deve ser compatível de forma que nossa equipe interna não tenha problemas para rodar.
 - Legibilidade: Seu código precisa ser **fácil de ler e entender**.
 - Testes automatizados: Nossa recomendação é que seu código tenha cobertura de testes, validando o caminho ideal, inputs inesperados etc.
-- Organização do projeto e documentação: Avaliaremos como você organiza seu código, estrutura do projeto e diretórios, depend=ências e ambiente. Também vamos avaliar a documentação do projeto.
+- Organização do projeto e documentação: Avaliaremos **como você organiza seu código**, estrutura do projeto e diretórios, dependências e ambiente. Também vamos avaliar a documentação do projeto.
 - Workflow: Fluxo de commits e como você os descreve.
 - Histórico: Você pode usar o arquivo `HISTORY.md` para descrever os motivadores de usar novas dependências, melhorias, opiniões.
 
@@ -51,7 +51,7 @@ Este projeto também está rodando com Docker, onde você poderá configurar out
 Clone o projeto em sua máquina com Docker instalado, vá até o diretório o execute o comando `docker compose up`. Pronto!
 
 **Links úteis:** 
-[Node Express](https://expressjs.com/),  [Next JS](https://nextjs.org/), [API Rest](https://jsonapi.org/), [GraphQL](https://graphql.org/), [Apollo Client](https://www.apollographql.com/docs/react/), [React](https://reactjs.org/), [React Jest](https://jestjs.io/), [React Hooks](https://reactjs.org/docs/hooks-intro.html), [Docker](https://www.docker.com/).
+[Node Express](https://expressjs.com/),  [Next JS](https://nextjs.org/), [API Rest](https://jsonapi.org/), [React](https://reactjs.org/), [React Jest](https://jestjs.io/), [React Hooks](https://reactjs.org/docs/hooks-intro.html), [Docker](https://www.docker.com/).
 
 **Feedback**
 
