@@ -6,7 +6,7 @@ Atualmente, em nosso portal principal ([jusbrasil.com](https://jusbrasil.com/)) 
 Quando um usuário começa sua jornada, ele está vinculado a um plano gratuito básico e ao atingir o limite, executamos algumas estratégias para oferta de migração de plano (upgrade), ou o usuário poderá acessar a nossa landing page para consultar os planos que mais se adequam as suas necessidades, através de um fluxo de checkout 100% on-line.
 
 ### Objetivo
-Seu objetivo neste teste é que após sua conclusão seja possível oferecer alguns planos para o usuário e recomendar melhores opções de pacotes promocionais fictícios de acordo com seu perfil, onde ele consiga concretizar a compra de um plano.
+Seu objetivo neste teste é que após sua conclusão seja possível oferecer alguns planos para o usuário, recomendando também opções de pacotes promocionais fictícios, você pode fazer isso separando pelo atributo "type" do JSON que está consumindo da sua API. Desta forma, o usuário deve conseguir passar pelo checkout validando seu cartão de crédito e recebendo um feedback em tela.
 
 ### O desafio, abordagens técnicas
 Este projeto foi criado usando [Next JS](https://nextjs.org/learn), com uma simples implementação fictícia de uma landing page que oferece planos até  um fluxo de checkout também fictício.
@@ -28,6 +28,14 @@ Para a etapa de checkout você **não precisará informar um cartão de crédito
 3. Devemos sempre apresentar o feedback para usuário, em caso de erro ou sucesso.
 
 **Dica:** No diretório [resources/cards](https://github.com/bsilva0xbr/cross-experience-level-3-to-4-tech-test/tree/main/resources/cards) temos opções de cartões de crédito fictícios que você poderá utilizar e também algumas informações importantes que vão te ajudar neste processo.
+
+### O que será avaliado
+- Facilidade de reprodução: O código precisa ser executável. Considere que se você mudou os diretórios ou instalou alguma dependência ela deve ser compatível de forma que nossa equipe interna não tenha problemas para rodar.
+- Legibilidade: Seu código precisa ser **fácil de ler e entender**.
+- Testes automatizados: Nossa recomendação é que seu código tenha cobertura de testes, validando o caminho ideal, inputs inesperados etc.
+- Organização do projeto e documentação: Avaliaremos como você organiza seu código, estrutura do projeto e diretórios, depend=ências e ambiente. Também vamos avaliar a documentação do projeto.
+- Workflow: Fluxo de commits e como você os descreve.
+- Histórico: Você pode usar o arquivo `HISTORY.md` para descrever os motivadores de usar novas dependências, melhorias, opiniões.
 
 **Pontos importantes**
 
