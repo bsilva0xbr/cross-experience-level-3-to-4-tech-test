@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "server-dev": "node ./server/server.js",
+    "server-start": "NODE_ENV=production node ./server/server.js"
   },
   "dependencies": {
     "next": "latest",
